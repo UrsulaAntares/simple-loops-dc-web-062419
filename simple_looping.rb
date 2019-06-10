@@ -20,6 +20,31 @@ def loop_iterator(number_of_times)
     end
 end
 
+####
+def loop_iterator(number_of_times)
+  phrase = "Welcome to Flatiron School's Web Development Course!"
+  count = 0
+  loop do 
+    count += 1
+    puts "#{phrase}"
+    if count >= 7
+      break
+    end
+end
+
+
+
+
+
+
+
+
+
+
+
+###
+
+
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
   phrase = "Welcome to Flatiron School's Web Development Course!"
